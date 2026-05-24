@@ -1,3 +1,4 @@
+# Contar Inversões
 import random
 v = []
 k = int(input("Digite o tamanho:"))
