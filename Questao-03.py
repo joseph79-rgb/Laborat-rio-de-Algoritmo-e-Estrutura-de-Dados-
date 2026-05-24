@@ -1,4 +1,4 @@
-# Busca Aproximad
+# Busca Aproximada
  import random
 
 v = []
