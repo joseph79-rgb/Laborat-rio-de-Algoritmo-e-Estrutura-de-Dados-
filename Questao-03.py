@@ -1,12 +1,11 @@
-# Busca Aproximada
-
+# Busca Aproximad
  import random
 
 v = []
 t = int(input("Digite o tamanho:"))
 for _ in range(t):
    v.append(random.randint(0,100))
-if t == 0:
+if t <= 0:
    print("Insira um tamanho válido.")
    
 else:
