@@ -1,4 +1,5 @@
 # Alguém e o dobro (Desordenada)
+
 import random
 
 v1 = []
@@ -23,7 +24,9 @@ else:
             
     if achei == 0:
         print("Não há")
+
 #Alguém e o dobro (Ordenada)
+
 import random
 
 v1 = []
