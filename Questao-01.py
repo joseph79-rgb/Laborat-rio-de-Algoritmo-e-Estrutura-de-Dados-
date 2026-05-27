@@ -1,5 +1,4 @@
 # O terceiro maior elemento
-# O Terceiro Maior Elemento
 import random
 v = []
 k = int(input("Digite o tamanho do seu vetor:"))
