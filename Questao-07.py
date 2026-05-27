@@ -1,3 +1,5 @@
+# Repetidos Próximos
+
 import random
 v = []
 t = int(input("Digite o tamanho do seu vetor:"))
