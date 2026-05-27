@@ -7,7 +7,7 @@ if t <= 0:
     print("Digite um tamanho valido")
 else:
     for _ in range(t):
-        v.append(random.randint(0,10))
+        v.append(random.randint(0,100))
     print(v)
     elemento_isolado = None
     for i in range(len(v)):
