@@ -1,0 +1,14 @@
+a) Análise do Melhor Caso
+
+O procedimento de partição compara um pivô com os n elementos da lista, exigindo um tempo de execução diretamente proporcional a n. 
+
+O melhor caso ocorre no algoritmo da bolha otimizado, que é quando as sublistas já estão ordenadas. O processo apenas varre os elementos uma única vez para verificar a ordem.
+
+Tempo = n(partição) + n(bolha) = 2n
+Complexidade O(n)
+
+Analise do Pior Caso
+
+O pior caso do algoritmo da bolha (lista em ordem decrescente) obriga a verificação de todos os pares possíveis, comparando cada elemento com a lista inteira, percorrendo n x n vezes.
+
+Tempo = n(partição) + n²(bolha) => tempo de complexidade O(n²).
