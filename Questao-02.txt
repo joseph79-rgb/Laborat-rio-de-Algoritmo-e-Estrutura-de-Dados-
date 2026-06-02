@@ -4,11 +4,11 @@ a) A lista está completamente ordenada?
 
 Sim. O raciocínio baseia-se na divisão mental da lista de tamanho n em três blocos de tamanho n/3. A, B e C.  
 
-Primeira passada: Os maiores elementos de A são passados para os maiores elementos de B.
+Primeira passada: Os maiores elementos de A são passados para a parte de B.
   
 Segunda passada: De B, os maiores agora são passados para C, concentrando todos os maiores da lista.
 
-Terceira passada: Como os maiores já estão concentrados em C, uma ultima arrumação em A e B ajusta o que sobrou, os menores elementos
+Terceira passada: Como os maiores já estão concentrados em C, uma ultima arrumação em A e B ajusta o que sobrou, os menores elementos.
 
 b) A ordenação via bolha é O(n²), como a bolha foi aplicada em cada fração da lista, então:
 3 x (2n/3)² = 3 x 4n²/9 => n² x 4/9, ignorando as constantes multiplicativas, logo O(n²).
