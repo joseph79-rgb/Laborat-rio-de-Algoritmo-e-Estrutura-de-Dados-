@@ -1,3 +1,8 @@
+class No:
+    def __init__(self, valor):
+        self.valor = valor
+        self.proximo = None
+        
 def duplicar_impares(p):
     atual = p
     while atual is not None:
