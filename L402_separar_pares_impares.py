@@ -1,3 +1,8 @@
+class No:
+    def __init__(self, valor):
+        self.valor = valor
+        self.proximo = None
+        
 def separar_pares_impares(inicio):
     list_impares = No(0)
     lista_pares = No(0)
