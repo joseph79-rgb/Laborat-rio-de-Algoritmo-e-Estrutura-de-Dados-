@@ -1,4 +1,4 @@
-def Q5(expressao):
+def balanceamento_delimitador(expressao):
     pares = {')': '(', ']': '[', '}': '{'}
     abridores = set(pares.values())
 
@@ -20,3 +20,4 @@ def Q5(expressao):
         return (False, len(expressao), pilha.pop(), "abridor sem fechador correspondente")
 
     return (True, None, None, None)
+Tempo de Execução: O(n).
